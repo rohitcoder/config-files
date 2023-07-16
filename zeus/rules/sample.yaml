@@ -1,0 +1,17 @@
+## these all below value may have regex pattern
+context:
+  name: "IDOR_CHECK"
+  users:
+    - USER_A:
+        request:
+          headers:
+            - "X-User-Id": "USER_A"
+          body:
+            - "user_id": "USER_A"
+    - USER_B:
+        request:
+          headers:
+            - "X-User-Id": "USER_B"
+          body_type: "json"
+          body: 
+            - "key": "value"

@@ -1,0 +1,21 @@
+## these all below value may have regex pattern
+scope_config:
+  allowed_hosts:
+    - "facebook.com"
+    - "*.facebook.com"
+  denied_hosts:
+  allowed_paths:
+  denied_paths:
+  allowed_methods:
+    - "GET"
+    - "POST"
+    - "PUT"
+    - "PATCH"
+    - "DELETE"
+  denied_methods:
+    - "OPTIONS"
+  allowed_content_types:
+  denied_content_types:
+    - "image/*"
+    - "audio/*"
+    - "video/*"
