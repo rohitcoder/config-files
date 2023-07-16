@@ -19,3 +19,7 @@ scope_config:
     - "image/*"
     - "audio/*"
     - "video/*"
+hooks:
+  request_extension:
+    js: 
+    - fb_extractor.py
