@@ -3,6 +3,7 @@ scope_config:
   allowed_hosts:
     - "facebook.com"
     - "*.facebook.com"
+    - "*.fbcdn.net"
   denied_hosts:
   allowed_paths:
   denied_paths:
