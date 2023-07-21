@@ -23,4 +23,4 @@ output_method: none ## could be none or file
 hooks:
   request_extension:
     js: 
-    - ~/Desktop/fb_extractor.py
+    - fb_extractor
