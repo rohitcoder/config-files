@@ -19,6 +19,7 @@ scope_config:
     - "image/*"
     - "audio/*"
     - "video/*"
+output_method: none ## coult none or file
 hooks:
   request_extension:
     js: 
